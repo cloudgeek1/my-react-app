@@ -1,0 +1,17 @@
+Rich Laabs - Simple React App with LaunchDarkly
+
+
+Step 1: Access my repository & clone my-react-app 
+
+Step 2: To install the SDK and dependancies, run "npm install -g npm
+
+Step 3: Access LaunchDarkly and set up your environment, remember to copy your ClientSideID key for future use
+
+Step 4: Create a feature flag names colorflag, and set up 2 variations by clicking the Variations tab at top. Choose color1 for Variation 1 and color2 for Variation 2
+
+Step 5: Bring up command line or Git Desktop and access local repositiory. Browse to app.js and find Line 10. Paste the ClientSideID you copied earlier over the one in the code and save. If you don't do that, your app will NOT have access to LaunchDarkly.
+  On a command line, type npm start to start your app. Notice you will have two addresses with :3000 appear and possibly a new browser window (if you dont have pop up blockers enabled). This is your app.
+  
+Step 6: Open LaunchDarkly and the browser your app is working in and shrink both to fit on one screen. On the LaunchDarkly Page choose Feature Flags on the left and choose colorflag. Slide the on and off switch to change the background. 
+
+//Those who can access enterprise and use user@example.com could have used targeting as when they logged on they would have been directed to a specific color for their user email. I tried to make it work but ran out of time and experience. 
